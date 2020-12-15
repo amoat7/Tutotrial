@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 import './App.css'
-import LifecycleA from './Components/LifecycleA'
+import ParentComp from './Components/ParentComp'
+import PortalDemo from './Components/PortalDemo'
+import RefsDemo from './Components/RefsDemo'
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-        <LifecycleA></LifecycleA>
+       
+       <PortalDemo></PortalDemo>
         
       </div>
     )
